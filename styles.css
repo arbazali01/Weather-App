@@ -55,7 +55,7 @@ input.search-bar {
   font-size: 105%;
   width: calc(100% - 100px);
 }
-.title {
+.title h1{
   justify-content: center;
   text-align: center;
 }
