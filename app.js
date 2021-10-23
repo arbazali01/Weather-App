@@ -24,7 +24,7 @@ let weather = {
     const { speed } = data.wind;
     const {visibility} = data;
 
-    document.querySelector(".city").innerText = "Weather in " + name;
+    document.querySelector(".city").innerText = name;
     document.querySelector(".date").innerText = dateInfo.date+", "+ dateInfo.month +" "+ dateInfo.year +" - "+ dateInfo.day;
     document.querySelector(".icon").src =
       "https://openweathermap.org/img/wn/" + icon + ".png";
