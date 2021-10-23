@@ -55,6 +55,13 @@ input.search-bar {
   font-size: 105%;
   width: calc(100% - 100px);
 }
+.title {
+  justify-content: center;
+  text-align: center;
+}
+h1{
+  margin: 0;
+}
 h2{
   margin-bottom: 0;
 }
